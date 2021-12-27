@@ -1,0 +1,45 @@
+body{
+	margin: 30px;
+}
+h1{
+	padding: 20px 0px;
+	border-bottom: 1px solid black;
+}
+span {color: yellowgreen;
+
+}
+
+	
+.list{
+	padding: 20px 60px;
+
+}
+.list h3{text-decoration: underline;}
+
+.img-element{
+	text-align: center;
+
+}
+img {
+    margin: 50px;
+    height: 400px;
+    width: 400px;
+    border: 5px solid red;
+
+    }
+ .table-element{color: red;
+ 	border: 1px solid red;
+ 	text-align: center;}
+ .table-element{padding: 0px 70px;}
+ table {
+    width: 100%;
+}
+table th,td{border: 1px solid #000;}
+table td{
+	padding: 20px 5px;
+}
+
+
+
+
+  
