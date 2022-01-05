@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 10;
+    box-sizing: border-box;
+}
+
+.imageContainer{
+    display: grid;
+    grid-gap: 50px;
+    margin-top: 100px;
+    margin-left: 0px;
+    width: 160px;
+}
+
+
+#logo{
+    width: 210vh;
+    background-color:#cfb2b2;
+    padding: top 2.5vh;;
+    padding: bottom 2.5vh;
+}
+h1{
+    text-align: center;
+    font-family: 'Brush Script MT', cursive;
+    color: blue;    
+}
+    
+.card{
+    display: grid;
+    grid-gap: 50px;
+    margin-right: 50px;
+    margin-left: 40px;
+    height: 30%;
+    min-width: 100%;
+    justify-content: center;
+}
+#navLinkRightContainer{
+    position: absolute;
+    right: 1%;
+}
+
+#logo{
+    position: absolute;
+    left: 1%;
+}
+footer{
+   
+   text-align: center;
+   background:#333333;
+   color: white;
+   padding-top:1.5vh;
+   padding-bottom:3.5vh;
+   width: 2000px;
+}
+
+.addToCart{
+    color:white;
+    background-color: #16A085;
+    border: 1px solid #16A085;
+    color:#16A085;
+    border: 1px solid #16A085;
+    background-color: white;
+}
+
+.addToCart:hover{
+    
+    color:white;
+    background-color: #16A085;
+    border: 1px solid #16A085;
+
+
+
+}
+
+.beforediscount{
+    text-decoration: line-through;
+}
+
+.discount{
+    color:#54B399
+    
+}
+
+.badge{
+    
+    position: relative;
+    top: 60px;
+    display: inline-block;
+    padding: .35em .65em;
+    font-size: .50em;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+}
+
+
+
+.new{
+    left: 48%;
+    background-color:red ;
+    border-color:red ;
+
+    color: white;
+}
+.badge.discount{
+    right: 48%;
+    background-color:#54B399 ;
+    border-color:#54B399 ;
+
+    color: white;
+}
+main{
+    min-height: 89vh;
+    margin-bottom: 2vh;
+}
+
+
+.imagePrdoduct{
+    display: block;
+    width: 100%;
+    min-height: 180px;
+}
+
+.imageContainer{
+    position: relative; 
+
+}
+
+.hoverButton{
+    transition: .5s ease;
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    opacity: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 180px;
+    cursor: pointer
+
+}
+
+.hoverButton:hover{
+    opacity: 1;
+}
+
+.hoverButton>.button{
+    border: 1px white solid;
+}
+
+
+button,.button{
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    cursor: pointer
+}
+
+.button{
+    background-color: white;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+
+}
+
+
+.button:hover{
+    background-color: #16A085;
+    border: 1px solid #16A085;
+    color: white;
+}
+
+
+.tooltip{
+    display: inline-block;
+}
+
+.tooltip{
+    line-height: 1;
+}
+.tooltip .tooltiptext {
+visibility: hidden;
+width: 120px;
+background-color: black;
+color: #fff;
+text-align: center;
+border-radius: 6px;
+padding: 5px 0;
+position: absolute;
+z-index: 5;
+bottom: 65%;
+line-height: 1.5;
+
+}
+
+.tooltiptext{
+margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+visibility: visible;
+}
+
+.right{
+    right:5% ;
+}
+.middle{
+        left: 50%;
+}
+.left{
+    left:30% ;
+
+}
+.buttonCard{
+    font-size:.7rem
+}
+@media only screen and (max-width: 768px ) {
+    .card{
+        margin-right: 20%;
+        margin-left: 20%;
+        height: 60%;
+        width: 60%;
+        text-align: center;
+        display: inline-block;
+    }
+
+    
+}
+
+
+@media only screen and (min-width: 768px ) and (max-width: 992px ) {
+    .card{
+        margin-right: 4%;
+        margin-left: 4%;
+        height: 60%;
+        width: 40%;
+        text-align: center;
+        display: inline-block;
+    }
+   
+    
+}
+
+
+
+@media only screen and  (min-width: 993px ) and (max-width: 1100px ){
+    .card{
+        margin-right: 2%;
+        margin-left: 2%;
+        max-height: 60%;
+        width: 20%;
+        text-align: center;
+        display: inline-block;
+    }
+
+   
+}
+
+@media only screen and   (min-width: 1101px ){
+    .card{
+        margin-right: 3%;
+        margin-left: 3%;
+        max-height: 60%;
+        min-width: 10%;
+        max-width: 10%;
+        text-align: center;
+        display: inline-block;
+    }
+
+    .imagePrdoduct {
+     
+        min-height: 114px;
+    }
+}
+
+html{
+    background-image: url("https://wallpapercave.com/wp/wp2014817.jpg");
+ background-color: #cccccc;
+ width: 100vh;
+}
+
+#firstcard{
+    margin: auto auto auto auto;
+    
+}
