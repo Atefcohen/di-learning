@@ -8,9 +8,7 @@
 //part 1
     let WatchedSeries = ["Vikings", "the 100" , "Black mirror", "Prison break"] 
     let watchedSeriesLength = 4
-    let myWatchedSeries = "vikings, the100, Black mirror and Prison break"
-
-    console.log("I watched " + watchedSeriesLength + " series :" + myWatchedSeries)
+    console.log("I watched " + watchedSeriesLength + " series :" + WatchedSeries)
 
 //part 2
 WatchedSeries[2] = "Friends"
